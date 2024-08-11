@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/cloud.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+    text-shadow: 4px 4px 4px black;
+    margin-right:15px;
+    font-size: 50px;
+}
+
+.instructions{
+    position: absolute;
+    font-family: sans-serif;
+    color:red;
+    text-shadow: 2px 2px 2px black;
+    font-size: 18px;
+    top:145px;
+    left:320px;
+}
+
+i{
+    color:red;
+    position: relative;
+    left:5px;
+    font-size: 25px;
+}
+
+.grid-layout{
+    position: absolute;
+    left: 1050px;
+    top:200px;
+}
+
+.puzzle-pieces{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    position: absolute;
+    left:250px;
+    top:200px;
+    border:4px dashed black;
+}
+
+#grid1-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#grid1-2{
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+
+#grid1-3{
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+#grid2-1{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+#grid2-2{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#grid2-3{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+#grid3-1{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+}
+
+#grid3-2{
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+#grid3-3{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+
